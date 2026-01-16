@@ -117,7 +117,7 @@ API_KEY=your-api-key-here
    ```
 4. **Clone the Repository**
    ```bash
-   git clone https://github.com/denki307/cheku_og && cd cheku_og
+   git clone https://github.com/denki307/cheku && cd cheku
    ```
 5. **Install Requirements**
    ```bash
