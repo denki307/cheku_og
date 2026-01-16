@@ -36,7 +36,7 @@ YT_API_KEY = getenv("YT_API_KEY" , 'xbit_u2uz0d1IxTQsFSgS3MaQthIrHwrO51V5' ) ## 
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/denki307/KANILMUSICBOT",
+    "https://github.com/denki307/cheku_og",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -44,7 +44,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSIC_BOT_WORLD")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/The_Thrive_Nation")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Chill_Squad_Malluchat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/89326edaf4ec770cad192-d00c8cc633c89f01dc.jpg"
+    "START_IMG_URL", "https://graph.org/file/c8245e21bd100be8dbc8b-541ff7bc0fdabe88a3.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
